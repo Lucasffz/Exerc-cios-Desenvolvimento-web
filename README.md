@@ -1,2 +1,2 @@
-# Exerc-cios-Desenvolvimento-web
+# Exercicios-Desenvolvimento-web
 Exercícios de Desenvolvimento web em java
