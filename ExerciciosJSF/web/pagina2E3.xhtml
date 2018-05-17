@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h2>Dados:</h2>
+        <h:panelGrid columns ="2">
+            <h:outputText value="Nome:"/>
+            <h:outputText value="#{pessoaMB.pessoa.nome}"/>
+            <h:outputText value="Sobrenome:"/>
+            <h:outputText value="#{pessoaMB.pessoa.sobrenome}"/>
+            <h:outputText value="Rua:" />
+            <h:outputText value="#{pessoaMB.pessoa.rua}" />
+            <h:outputText value="Bairro:"/>
+            <h:outputText value="#{pessoaMB.pessoa.bairro}"/>
+            <h:outputText value="Cep:"/>
+            <h:outputText value="#{pessoaMB.pessoa.cep}"/>
+            <h:outputText value="Cidade:" />
+            <h:outputText value="#{pessoaMB.pessoa.cidade}" />
+            <h:outputText value="Estado:" />
+            <h:outputText value="#{pessoaMB.pessoa.estado}" />
+        </h:panelGrid>
+       
+    </h:body>
+</html>
+
